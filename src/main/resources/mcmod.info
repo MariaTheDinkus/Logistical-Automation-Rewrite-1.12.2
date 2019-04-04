@@ -1,0 +1,16 @@
+[
+{
+  "modid": "logisticalautomation",
+  "name": "Logistical Automation",
+  "description": "A mod which focuses on automation of various processes in creative ways.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Zundrel"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": ["patchouli"]
+}
+]
