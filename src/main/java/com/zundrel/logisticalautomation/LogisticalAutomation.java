@@ -15,13 +15,13 @@ public class LogisticalAutomation
     public static final String MOD_NAME = "Logistical Automation";
     public static final String MOD_VERSION = "0.2.0";
 
-    @SidedProxy(clientSide = "com.zundrel.logisticalautomation.ClientProxy", serverSide = "com.zundrel.logisticalautomation.CommonProxy")
+    @SidedProxy(clientSide = "com.zundrel.logisticalautomation.proxy.ClientProxy", serverSide = "com.zundrel.logisticalautomation.proxy.CommonProxy")
     public static CommonProxy proxy;
 
     @Mod.Instance
     public static LogisticalAutomation instance;
 
-    private static Logger logger;
+    public static Logger logger;
 
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event) {

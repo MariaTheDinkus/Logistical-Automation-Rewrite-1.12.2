@@ -1,0 +1,62 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "0": "logisticalautomation:blocks/conveyor"
+    },
+    "model": "logisticalautomation:conveyor"
+  },
+  "variants": {
+    "normal": [
+      {
+        "model": "logisticalautomation:conveyor"
+      }
+    ],
+    "inventory": [
+	  {
+	    "submodel": {
+          "wall1": {
+            "model": "logisticalautomation:conveyor_wall_left"
+          },
+          "wall2": {
+            "model": "logisticalautomation:conveyor_wall_right"
+          }
+        }
+	  }
+	],
+	"facing": {
+	  "north": {},
+	  "east": {
+	    "y": 90
+	  },
+	  "south": {
+	    "y": 180
+	  },
+	  "west": {
+	    "y": 270
+	  },
+	  "up": {},
+	  "down": {}
+	},
+	"front": {
+	  "true": {},
+	  "false": { "submodel": "logisticalautomation:conveyor_wall_front" }
+	},
+	"right": {
+	  "true": {},
+	  "false": { "submodel": "logisticalautomation:conveyor_wall_right" }
+	},
+	"back": {
+	  "true": {},
+	  "false": { "submodel": "logisticalautomation:conveyor_wall_back" }
+	},
+	"left": {
+	  "true": {},
+	  "false": { "submodel": "logisticalautomation:conveyor_wall_left" }
+	},
+	"top": {
+	  "true": { "submodel": "logisticalautomation:conveyor_pillars" },
+	  "false": {}
+	}
+  }
+}

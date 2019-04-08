@@ -1,0 +1,11 @@
+#Creative Tab
+itemGroup.logisticalautomation=Logistical Automation
+
+#Blocks
+tile.logisticalautomation.conveyor_normal.name=Normal Conveyor
+tile.logisticalautomation.conveyor_fast.name=Fast Conveyor
+tile.logisticalautomation.conveyor_express.name=Express Conveyor
+
+tile.logisticalautomation.conveyor_ramp_normal.name=Normal Conveyor Ramp
+tile.logisticalautomation.conveyor_ramp_fast.name=Fast Conveyor Ramp
+tile.logisticalautomation.conveyor_ramp_express.name=Express Conveyor Ramp

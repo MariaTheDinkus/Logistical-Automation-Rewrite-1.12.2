@@ -1,0 +1,59 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+	"textures": {
+      "0": "logisticalautomation:blocks/conveyor"
+    },
+    "model": "logisticalautomation:conveyor_ramp"
+  },
+  "variants": {
+    "normal": [
+      {
+        "model": "logisticalautomation:conveyor_ramp"
+      }
+    ],
+    "inventory": [
+	  {
+	    "model": "logisticalautomation:conveyor_ramp"
+	  }
+	],
+	"facing": {
+	  "north": {},
+	  "east": {
+	    "y": 90
+	  },
+	  "south": {
+	    "y": 180
+	  },
+	  "west": {
+	    "y": 270
+	  },
+	  "up": {},
+	  "down": {}
+	},
+	"front": {
+	  "true": {},
+	  "false": {}
+	},
+	"right": {
+	  "true": {},
+	  "false": {}
+	},
+	"back": {
+	  "true": {},
+	  "false": {}
+	},
+	"left": {
+	  "true": {},
+	  "false": {}
+	},
+	"bottom": {
+	  "true": { "submodel": "logisticalautomation:conveyor_ramp_pillars" },
+	  "false": {}
+	},
+	"down": {
+	  "true": { "model": "logisticalautomation:conveyor_ramp_down" },
+	  "false": {}
+	}
+  }
+}

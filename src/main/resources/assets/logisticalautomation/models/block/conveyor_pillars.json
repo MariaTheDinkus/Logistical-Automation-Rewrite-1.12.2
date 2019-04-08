@@ -1,0 +1,60 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"1": "logisticalautomation:blocks/conveyor_side"
+	},
+	"elements": [
+		{
+			"name": "Pillar1",
+			"from": [0, 1, 0],
+			"to": [1, 16, 1],
+			"faces": {
+				"north": {"uv": [1, 0, 2, 15], "texture": "#1"},
+				"east": {"uv": [1, 0, 2, 15], "texture": "#1"},
+				"south": {"uv": [1, 0, 2, 15], "texture": "#1"},
+				"west": {"uv": [1, 0, 2, 15], "texture": "#1"},
+				"up": {"uv": [1, 1, 2, 2], "texture": "#1"},
+				"down": {"uv": [1, 1, 2, 2], "texture": "#1"}
+			}
+		},
+		{
+			"name": "Pillar2",
+			"from": [15, 1, 0],
+			"to": [16, 16, 1],
+			"faces": {
+				"north": {"uv": [1, 0, 2, 15], "texture": "#1"},
+				"east": {"uv": [1, 0, 2, 15], "texture": "#1"},
+				"south": {"uv": [1, 0, 2, 15], "texture": "#1"},
+				"west": {"uv": [1, 0, 2, 15], "texture": "#1"},
+				"up": {"uv": [1, 1, 2, 2], "texture": "#1"},
+				"down": {"uv": [1, 1, 2, 2], "texture": "#1"}
+			}
+		},
+		{
+			"name": "Pillar3",
+			"from": [15, 1, 15],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [1, 0, 2, 15], "texture": "#1"},
+				"east": {"uv": [1, 0, 2, 15], "texture": "#1"},
+				"south": {"uv": [1, 0, 2, 15], "texture": "#1"},
+				"west": {"uv": [1, 0, 2, 15], "texture": "#1"},
+				"up": {"uv": [1, 1, 2, 2], "texture": "#1"},
+				"down": {"uv": [1, 1, 2, 2], "texture": "#1"}
+			}
+		},
+		{
+			"name": "Pillar4",
+			"from": [0, 1, 15],
+			"to": [1, 16, 16],
+			"faces": {
+				"north": {"uv": [1, 0, 2, 15], "texture": "#1"},
+				"east": {"uv": [1, 0, 2, 15], "texture": "#1"},
+				"south": {"uv": [1, 0, 2, 15], "texture": "#1"},
+				"west": {"uv": [1, 0, 2, 15], "texture": "#1"},
+				"up": {"uv": [1, 1, 2, 2], "texture": "#1"},
+				"down": {"uv": [1, 1, 2, 2], "texture": "#1"}
+			}
+		}
+	]
+}

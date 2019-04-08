@@ -1,5 +1,6 @@
 package com.zundrel.logisticalautomation.proxy;
 
+import com.zundrel.logisticalautomation.registries.ModBlocks;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
@@ -15,5 +16,6 @@ public class ClientProxy extends CommonProxy {
 
     @SubscribeEvent
     public static void registerModels(ModelRegistryEvent event) {
+        ModBlocks.initModels();
     }
 }
