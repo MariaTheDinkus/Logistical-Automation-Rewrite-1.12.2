@@ -10,6 +10,7 @@ import net.minecraft.block.state.IBlockState;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.inventory.IInventory;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.math.AxisAlignedBB;
 import net.minecraft.util.math.BlockPos;
@@ -28,10 +29,17 @@ public class BlockConveyor extends BlockConveyorBase {
         IBlockState newState = state;
         EnumFacing facing = state.getValue(FACING);
 
+        BlockPos frontPos = pos.offset(facing);
         BlockPos rightPos = pos.offset(facing.rotateY());
         BlockPos backPos = pos.offset(facing.getOpposite());
         BlockPos leftPos = pos.offset(facing.rotateYCCW());
         BlockPos topPos = pos.up();
+
+        if (worldIn.getTileEntity(frontPos) instanceof IInventory) {
+            newState = newState.withProperty(FRONT, true);
+        } else {
+            newState = newState.withProperty(FRONT , false);
+        }
 
         if (worldIn.getBlockState(rightPos).getBlock() instanceof BlockConveyor && worldIn.getBlockState(rightPos).getValue(FACING) == facing.rotateYCCW()) {
             newState = newState.withProperty(RIGHT, true);

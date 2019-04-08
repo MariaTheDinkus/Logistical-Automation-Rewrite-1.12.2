@@ -39,8 +39,8 @@
 	  "down": {}
 	},
 	"front": {
-	  "true": {},
-	  "false": { "submodel": "logisticalautomation:conveyor_wall_front" }
+	  "true": { "submodel": "logisticalautomation:conveyor_hopper" },
+	  "false": {}
 	},
 	"right": {
 	  "true": {},
